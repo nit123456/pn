@@ -1,0 +1,38 @@
+.info-benefit{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    h3{
+        background-color: $pickme;
+        padding: 10px;
+        box-shadow:$iamme;
+        padding : {
+            left: 30px;
+            right: 30px;
+        };
+        border-radius: 10px;
+        // width: 200px;
+    }
+    .benefit{
+        display: flex;
+        .card{
+            background-color:$pickme;
+            border-radius: 10px;
+            box-shadow:$iamme;
+            margin : {
+                left: 20px;
+                right:20px;
+            } ;
+            h4{
+                margin-left: 10px;
+                text-align: center;
+            }
+        }
+        p{
+            width: 400px;
+            margin-left: 10px;
+            text-align: center;
+        }
+    }
+}

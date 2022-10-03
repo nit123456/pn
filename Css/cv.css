@@ -1,0 +1,314 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(138, 13, 138, 0.3);
+}
+nav .left {
+  margin-left: 50px;
+}
+nav .left img {
+  margin-top: 3px;
+}
+nav .right {
+  margin-right: 50px;
+}
+nav .right a {
+  background-color: rgba(138, 13, 138, 0.3);
+  outline: none;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+nav .right a:hover {
+  background-color: orange;
+  color: white;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  margin-left: 300px;
+}
+@media screen and (max-width: 834px) {
+  nav ul {
+    margin-right: 20%;
+  }
+}
+nav ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li:hover {
+  background-color: orange;
+  border-radius: 20px;
+}
+nav ul li:hover a {
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .header {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+main .header h3 {
+  background-color: orange;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+form {
+  background-color: rgba(138, 13, 138, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 15px;
+  width: 80%;
+  border-radius: 20px;
+}
+form .full-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+form .full-name p {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+form .full-name .name {
+  display: flex;
+}
+form .full-name .name input {
+  width: 400px;
+  padding: 10px;
+  margin-left: 5px;
+  background-color: rgba(138, 13, 138, 0.3);
+  outline: none;
+  border: none;
+  border-radius: 20px;
+}
+form .full-name .name input:hover {
+  background-color: white;
+}
+form .gender {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+form .gender p {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+form .gender .gender-chose {
+  display: flex;
+  margin-right: 290px;
+}
+form .gender .gender-chose .female {
+  margin-right: 330px;
+}
+form .gender .gender-chose .male {
+  margin-right: 60px;
+}
+form .address {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+form .address p {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  margin-bottom: 60px;
+}
+form .address .street-city, form .address .destrict-country {
+  display: flex;
+}
+form .address .street-city input, form .address .destrict-country input {
+  width: 400px;
+  padding: 10px;
+  margin-left: 5px;
+  background-color: rgba(138, 13, 138, 0.3);
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+form .address .street-city input:hover, form .address .destrict-country input:hover {
+  background-color: white;
+}
+form .contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+form .contact p {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+form .contact .p-number {
+  display: flex;
+}
+form .contact .p-number input {
+  width: 400px;
+  padding: 10px;
+  margin-left: 5px;
+  background-color: rgba(138, 13, 138, 0.3);
+  outline: none;
+  border: none;
+  border-radius: 20px;
+}
+form .contact .p-number input:hover {
+  background-color: white;
+}
+form .e-mail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+form .e-mail p {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+form .e-mail input {
+  width: 825px;
+  padding: 10px;
+  margin-left: 5px;
+  background-color: rgba(138, 13, 138, 0.3);
+  outline: none;
+  border: none;
+  border-radius: 20px;
+}
+form .e-mail input:hover {
+  background-color: white;
+}
+form .position {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+form .position p {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+form .position select {
+  width: 850px;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: rgba(138, 13, 138, 0.3);
+}
+form .position select:hover {
+  background-color: white;
+}
+form .experience {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+form .experience p {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 150px;
+  width: 100px;
+}
+form .experience textarea {
+  background-color: rgba(138, 13, 138, 0.3);
+  width: 825px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  padding: 10px;
+  resize: none;
+}
+form .experience textarea:hover {
+  background-color: white;
+}
+form button {
+  margin-left: 89%;
+  padding: 10px;
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(138, 13, 138, 0.3);
+}
+form button a {
+  text-decoration: none;
+  color: black;
+}
+form button:hover {
+  background-color: orange;
+}
+form button:hover a {
+  color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: rgba(138, 13, 138, 0.3);
+}
+footer .icons {
+  margin-top: 20px;
+}
+footer .icons i {
+  font-size: 30px;
+  color: rgba(138, 13, 138, 0.3);
+}
+footer .icons i:hover {
+  color: orange;
+}/*# sourceMappingURL=cv.css.map */

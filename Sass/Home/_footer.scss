@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: $pickme;
+    .icons{
+        margin-top: 20px;
+        i{
+            font-size: 30px;
+            color: $pickme ;
+            &:hover{
+                color: orange;
+            }
+        }
+        
+    }
+
+}

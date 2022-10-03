@@ -1,0 +1,179 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(138, 13, 138, 0.3);
+}
+nav .left {
+  margin-left: 50px;
+}
+nav .left img {
+  margin-top: 3px;
+}
+nav .right {
+  margin-right: 50px;
+}
+nav .right a {
+  background-color: rgba(138, 13, 138, 0.3);
+  outline: none;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+nav .right a:hover {
+  background-color: orange;
+  color: white;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  margin-left: 300px;
+}
+@media screen and (max-width: 834px) {
+  nav ul {
+    margin-right: 20%;
+  }
+}
+nav ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li:hover {
+  background-color: orange;
+  border-radius: 20px;
+}
+nav ul li:hover a {
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.log-in {
+  background-color: rgba(138, 13, 138, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-top: 50px;
+}
+
+img {
+  margin-top: 50px;
+}
+
+.log-in-with {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+.log-in-with p {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+form {
+  background-color: rgba(138, 13, 138, 0.3);
+  padding: 15px;
+  width: 80%;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+form .img {
+  display: flex;
+  justify-content: center;
+}
+form .header {
+  display: flex;
+  justify-content: space-around;
+}
+form .header a {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  width: 10%;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+}
+form .header a:hover {
+  background-color: rgba(138, 13, 138, 0.3);
+  color: black;
+}
+form .p-number, form .password {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+form .p-number p, form .password p {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+form .p-number p:hover, form .password p:hover {
+  background-color: rgba(138, 13, 138, 0.3);
+}
+form .p-number input, form .password input {
+  width: 825px;
+  padding: 10px;
+  margin-left: 5px;
+  background-color: rgba(138, 13, 138, 0.3);
+  outline: none;
+  border: none;
+  border-radius: 20px;
+}
+form .p-number input:hover, form .password input:hover {
+  background-color: white;
+}
+form .text {
+  margin-left: 23%;
+}
+form .text a {
+  text-decoration: none;
+}
+form button {
+  margin-left: 45%;
+  padding: 10px;
+  width: 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: orange;
+}
+form button a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+form button:hover {
+  background-color: rgba(138, 13, 138, 0.3);
+}
+form button:hover a {
+  color: black;
+}/*# sourceMappingURL=log in ( p-n ).css.map */

@@ -1,0 +1,228 @@
+form{
+    background-color:$pickme;
+    box-shadow: $iamme;
+    padding: 15px;
+    width: 80%;
+    border-radius: 20px;
+    .full-name{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin : {
+            left: 20px;
+            right: 20px;
+        };
+        p{
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            width: 100px;
+        }
+        .name{
+            display: flex;
+            input{
+                width: 400px;
+                padding: 10px;
+                margin-left: 5px;
+                background-color: $pickme;
+                outline: none;
+                border: none;
+                border-radius: 20px;
+                &:hover{
+                    background-color: white;
+                }
+            }
+        }
+       
+    }
+    .gender{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin : {
+            left: 20px;
+            right: 20px;
+        }
+        p{
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            width: 100px;
+        }
+        .gender-chose{
+            display: flex;
+            margin-right: 290px;
+            .female{
+                margin-right: 330px ;
+            }
+            .male{
+                margin-right: 60px;
+            }
+        }
+    }
+    .address{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin : {
+            left: 20px;
+            right: 20px;
+        }
+        p{
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            width: 100px;
+            margin-bottom: 60px;
+        }
+        .street-city, .destrict-country{
+            display: flex;
+            input{
+                width: 400px;
+                padding: 10px;
+                margin-left: 5px;
+                background-color: $pickme;
+                outline: none;
+                border: none;
+                border-radius: 20px;
+                margin-top: 20px;
+                &:hover{
+                    background-color: white;
+                }
+            }
+        }
+    }
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin : {
+            left: 20px;
+            right: 20px;
+        }
+        p{
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            width: 100px;
+        }
+        .p-number{
+            display: flex;
+            input{
+                width: 400px;
+                padding: 10px;
+                margin-left: 5px;
+                background-color: $pickme;
+                outline: none;
+                border: none;
+                border-radius: 20px;
+                &:hover{
+                    background-color: white;
+                }
+            }
+        }
+    }
+    .e-mail{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin : {
+            left: 20px;
+            right: 20px;
+        }
+        p{
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            width: 100px;
+        }
+        input{
+            width: 825px;
+            padding: 10px;
+            margin-left: 5px;
+            background-color: $pickme;
+            outline: none;
+            border: none;
+            border-radius: 20px;
+            &:hover{
+                background-color: white;
+            }
+        }
+    }
+    .position{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin : {
+            left: 20px;
+            right: 20px;
+        }
+        p{
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            width: 100px;
+        }
+        select{
+            width: 850px;
+            padding: 10px;
+            border-radius: 20px;
+            outline: none;
+            border: none;
+            background-color: $pickme;
+            &:hover{
+                background-color: white;
+            }
+        }
+    }
+    .experience{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin : {
+            left: 20px;
+            right: 20px;
+        }
+        p{
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 150px;
+            width: 100px;
+        }
+        textarea{
+           background-color: $pickme;
+           width: 825px;
+           border-radius: 20px;
+           outline: none;
+           border: none;
+           margin-top: 20px;
+           padding: 10px;
+           resize: none;
+           &:hover{
+            background-color: white;
+        }
+        }
+    }
+    button{
+        margin-left: 89%;
+        padding: 10px;
+        width: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        background-color: $pickme;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        &:hover{
+            background-color: orange;
+            a{
+                color: white;
+            }
+        }
+    }
+}

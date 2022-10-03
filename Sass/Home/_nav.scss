@@ -1,0 +1,68 @@
+// @import"variable";
+@import"../Mixin/Responsive";
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: Arial;
+    font-size: 20px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $pickme;
+    .left{
+        margin-left: 50px;
+        img{
+            margin-top: 3px;
+        }
+    
+    }
+    .right{
+        margin-right: 50px;
+        a{
+            background-color:$pickme;
+            outline: none;
+            border: none;
+            padding:15px;
+            border-radius: 10px;
+            font-size: 15px;
+            text-decoration: none;
+            color: black;
+            &:hover{
+                background-color:orange ;
+                color: white;
+            }
+        }
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        padding: 10px;
+        margin-left: 300px;
+        @include responsive(teblet){
+            margin-right:20%;
+        }
+        li{
+            margin : {
+                left: 20px;
+                right: 20px;
+            };
+            padding: 10px;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        li:hover{
+            background-color: orange;
+            border-radius: 20px;
+            a{
+                color: white;
+            }
+        }
+        
+    }
+}
